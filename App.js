@@ -5,7 +5,7 @@ import OneSignal from 'react-native-onesignal';
 
 export default function App() {
   useEffect(() => {
-    OneSignal.init("YOUR_ONE_SIGNAL_APP_ID")
+    OneSignal.init("YOUR_ONESIGNAL_APP_ID")
   }, []);
 
   return (
