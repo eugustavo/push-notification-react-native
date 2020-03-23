@@ -1,4 +1,3 @@
-import 'dotenv/config';
 import React, { useEffect } from 'react';
 import { View, Text } from 'react-native';
 import OneSignal from 'react-native-onesignal';
@@ -6,7 +5,7 @@ import OneSignal from 'react-native-onesignal';
 
 export default function App() {
   useEffect(() => {
-    OneSignal.init(process.env.ONESIGNAL_APP_ID)
+    OneSignal.init("YOUR_ONE_SIGNAL_APP_ID")
   }, []);
 
   return (
